@@ -8,11 +8,11 @@ type Units =
   'µs' | 'μs' | 'us' | 'microsecond' |
   'millisecond' | 'ms' |
   'second' | 'sec' | 's' |
-  'minute' | 'min' | 'm' |
+  'minute' | 'min' |
   'hour' | 'hr' | 'h' |
   'day' | 'd' |
   'week' | 'wk' | 'w' |
-  'month' | 'b' |
+  'month' | 'm' |
   'year' | 'yr' | 'y'
 
 export default function parse (str: string, format?: Units): number | null
