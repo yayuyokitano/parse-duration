@@ -26,12 +26,11 @@ parse.sec =
 parse.s = parse.ms * 1000
 
 parse.minute =
-parse.min =
-parse.m = parse.s * 60
+parse.min = parse.s * 60
 
 parse.hour =
 parse.hr =
-parse.h = parse.m * 60
+parse.h = parse.min * 60
 
 parse.day =
 parse.d = parse.h * 24
@@ -41,7 +40,7 @@ parse.wk =
 parse.w = parse.d * 7
 
 parse.month =
-parse.b =
+parse.m =
 parse.d * (365.25 / 12)
 
 parse.year =
